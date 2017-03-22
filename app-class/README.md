@@ -1,0 +1,12 @@
+# Introduction to App creation
+In this class we will be using the [Ionic Framework](http://ionicframework.com/). This will allow us to create fast and modern applications using JavaScript.
+
+## A few notes for the class:
+- Code will be displayed like this `var code = 'awesome'` or:
+```
+function ionicFramework() {
+    return 'Awesome Apps';
+}
+```
+- All terms will be displayed like this __JavaScript__
+- Documentation for [Ionic](http://ionicframework.com/docs/v1/) is always a great resource.
