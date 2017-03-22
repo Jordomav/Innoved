@@ -12,7 +12,7 @@ Lets create a new folder called `menu` inside of the `www/js/` folder. In here w
 
 - The `menu.html` is what is going to house our code that will be displayed.
     - Lets put the following code:
-```
+```html
 <ion-side-menus>
   <ion-side-menu-content>
     <ion-nav-bar class="bar-stable">
@@ -36,7 +36,7 @@ Lets create a new folder called `menu` inside of the `www/js/` folder. In here w
 
 - The `menu.controller.js` is going to contain the code that will allow us to manipulate the __html__.
     - Lets put the following code:
-```
+```javascript
 angular.module('app')
   .controller('menuController', menuController);
 
@@ -52,7 +52,7 @@ Before we show the menu lets take a break from the computers and discuss how app
 Now that we have a better understanding of how apps work lets create our main __state__, this state will act as the main state. All other states will be __sub-states__ of this menu state.
 
 To create our menu we will need to write the following code on the `js/app.js` file:
-```
+```javascript
  $stateProvider
       .state('myApp', {
         abstract: true,

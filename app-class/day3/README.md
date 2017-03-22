@@ -14,7 +14,7 @@ On the `home.html` page lets put:
 ```
 
 On the `home.controller.js`:
-```
+```javascript
 angular.module('app')
   .controller('homeController', homeController);
 

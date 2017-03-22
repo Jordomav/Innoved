@@ -3,7 +3,7 @@ In this class we will be using the [Ionic Framework](http://ionicframework.com/)
 
 ## A few notes for the class:
 - Code will be displayed like this `var code = 'awesome'` or:
-```
+```javascript
 function ionicFramework() {
     return 'Awesome Apps';
 }
