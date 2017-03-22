@@ -56,7 +56,7 @@ Now that we have the menu and home page displaying lets add some stuff to the ho
 
 On the `home.html` lets put our names.
 
-```
+```html
 <ion-view title="Home" class="home">
   <ion-content padding="true">
     <h1 class="myName">Jordan's App</h1>
@@ -67,7 +67,7 @@ On the `home.html` lets put our names.
 
 Now that we have our names showing lets make it look nice, lets change the name color to our favorite color:
 In our `www/css/styles.css` lets add this:
-```
+```css
 .myName {
     color: blue;
 }
@@ -82,7 +82,7 @@ Lets call it `me.jpg`, so it should be here `www/img/me.jpg`
 
 To show our pictures lets add the following tag to the `home.html`
 
-```
+```html
 <ion-view title="Home" class="home">
   <ion-content padding="true">
     <h1 class="myName">Jordan's App</h1>
