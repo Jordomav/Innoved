@@ -63,5 +63,5 @@ To create our menu we will need to write the following code on the `js/app.js` f
 ```
 
 - `templateUrl` is what tells the JavaScript where the HTML we wrote will be housed.
-- `controller` is, as the name implies, is what controls our state
-- `controllerAs` allows us to reference the controller in more simple language
+- `controller` is, as the name implies, is what controls our state.
+- `controllerAs` allows us to reference the controller in more simple language.
