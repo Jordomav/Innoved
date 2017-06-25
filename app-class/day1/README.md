@@ -28,7 +28,7 @@ The command line is how computers work. What we see is simply just a nice interf
     
 ## Lets install the project:
 
-1. Go to this Google Drive and download [this file](https://www.google.com/drive/).
+1. Go to this GitHub repo and download [this file](https://github.com/Jordomav/Innoved/archive/master.zip).
 2. Unzip the file on your Desktop.
 3. Now lets open back up the command line and type in `cd innoved-app`.
 4. Now lets install all our dependencies:
