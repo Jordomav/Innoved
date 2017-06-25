@@ -22,8 +22,8 @@ The command line is how computers work. What we see is simply just a nice interf
 - The command `mkdir`, or 'make directory', allows you to create a new folder. For example, `mkdir stlyes`.
 - Lets try these commands out
     - Type in the command `cd ~/Desktop`
-    - Then type in `ls`
-    - Now lets create a new file, type in `touch index.html`
+    - Then type in `dir`
+    - Now lets create a new file, type in `echo some-text  > index.html`
     - Next lets make a new folder, type in `mkdir stlyes`
     
 ## Lets install the project:
