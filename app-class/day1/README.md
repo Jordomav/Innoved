@@ -72,4 +72,42 @@ The only files that we will be working with:
 
 - The entire `www/js/` folder.
 - The `www/css/style.css` file.
-- The `www/img/` folder.   
+- The `www/img/` folder.
+   
+# Creating the menu
+Lets create a new folder called `menu` inside of the `www/js/` folder. In here we need to create two files a `menu.html` and a `menu.controller.js`.
+
+- The `menu.html` is what is going to house our code that will be displayed.
+   - Lets put the following code:
+```html
+<ion-side-menus>
+ <ion-side-menu-content>
+   <ion-nav-bar class="bar-stable">
+     <ion-nav-back-button></ion-nav-back-button>
+     <ion-nav-buttons side="left">
+       <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+     </ion-nav-buttons>
+   </ion-nav-bar>
+   <ion-nav-view name="menuContent"></ion-nav-view>
+ </ion-side-menu-content>
+ <ion-side-menu side="left">
+   <ion-content>
+     <ion-list>
+       
+     </ion-list>
+   </ion-content>
+ </ion-side-menu>
+</ion-side-menus>
+
+```
+
+- The `menu.controller.js` is going to contain the code that will allow us to manipulate the __html__.
+   - Lets put the following code:
+```javascript
+angular.module('app')
+ .controller('menuController', menuController);
+
+function menuController() {
+ 
+}
+```
