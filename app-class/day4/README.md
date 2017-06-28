@@ -16,6 +16,7 @@ So on the `info.html` lets add this
     <ul>
         <li>Favorite Color- Red</li>
         <li>Favorite Subject- Science</li>
+    </ul>
   </div>
 
 </div>
