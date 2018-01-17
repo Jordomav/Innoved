@@ -1,3 +1,5 @@
+# **Please note that this syllabus is now considered to  be outdated. It is using Ionic v1 which is now the legacy build. For the updated syllabus go [here](https://github.com/Jordomav/Innoved/tree/master/app-class-v2/).** 
+
 # Introduction to App creation
 In this class we will be using the [Ionic Framework](http://ionicframework.com/). This will allow us to create fast and modern applications using JavaScript.
 
