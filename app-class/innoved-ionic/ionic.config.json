@@ -1,8 +1,0 @@
-{
-  "name": "ionic-boilerplate",
-  "app_id": "39c96924",
-  "type": "ionic1",
-  "watchPatterns": [
-    "scss/**/*"
-  ]
-}

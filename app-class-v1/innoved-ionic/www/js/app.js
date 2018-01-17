@@ -38,7 +38,7 @@ angular.module('app', [
           }
         }
       })
-      .state('myApp.likes', {
+      .state('myApp.lists', {
         url: '/likes',
         views: {
           menuContent: {
