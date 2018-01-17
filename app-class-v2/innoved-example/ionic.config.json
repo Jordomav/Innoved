@@ -1,6 +1,6 @@
 {
   "name": "innoved-example",
-  "app_id": "",
+  "app_id": "308cd4c3",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
